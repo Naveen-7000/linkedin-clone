@@ -25,9 +25,9 @@ const LoginCard = () => {
       </header>
 
       <form className={classes.form} onSubmit={(e) => e.preventDefault()}>
-        <input disabled type="email" value="" placeholder="email" />
-        <input disabled type="password" value="" placeholder="password" />
-        <button disabled>Log In</button>
+        <input disabled type="email" value="" placeholder="email" aria-disabled />
+        <input disabled type="password" value="" placeholder="password" aria-disabled />
+        <button disabled >Log In</button>
       </form>
 
       <div className={classes.google}>
@@ -65,15 +65,15 @@ const LoginCard = () => {
 };
 
 const author = [
-  { src: <GitHubIcon />, url: "https://github.com/phanison898", color: "black" },
-  { src: <LinkedInIcon />, url: "https://www.linkedin.com/in/phanison225/", color: "#5d98d4" },
+  { src: <GitHubIcon />, url: "https://github.com/Naveen-7000", color: "black" },
+  { src: <LinkedInIcon />, url: "https://www.linkedin.com/in/naveen-bhusare-337454191/", color: "#5d98d4" },
   {
     src: <YouTubeIcon />,
-    url: "https://www.youtube.com/channel/UC4FAldAo2Ow_2F447yggcqA",
+    url: "",
     color: "red",
   },
-  { src: <InstagramIcon />, url: "https://www.instagram.com/phanison225/", color: "#b7066e" },
-  { src: <TwitterIcon />, url: "https://twitter.com/phanison225", color: "rgb(29 161 242)" },
+  { src: <InstagramIcon />, url: "", color: "#b7066e" },
+  { src: <TwitterIcon />, url: "", color: "rgb(29 161 242)" },
 ];
 
 export default LoginCard;

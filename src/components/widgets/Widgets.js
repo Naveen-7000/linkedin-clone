@@ -91,11 +91,11 @@ const top_2 = [
 ];
 
 const author = [
-  { src: <GitHubIcon />, url: "https://github.com/phanison898" },
-  { src: <LinkedInIcon />, url: "https://www.linkedin.com/in/phanison225/" },
-  { src: <YouTubeIcon />, url: "https://www.youtube.com/channel/UC4FAldAo2Ow_2F447yggcqA" },
-  { src: <InstagramIcon />, url: "https://www.instagram.com/phanison225/" },
-  { src: <TwitterIcon />, url: "https://twitter.com/phanison225" },
+  { src: <GitHubIcon />, url: "https://github.com/Naveen-7000" },
+  { src: <LinkedInIcon />, url: "https://www.linkedin.com/in/naveen-bhusare/" },
+  { src: <YouTubeIcon />, url: "https://www.youtube.com/channel/" },
+  { src: <InstagramIcon />, url: "https://www.instagram.com/" },
+  { src: <TwitterIcon />, url: "https://twitter.com/" },
 ];
 
 export default Widgets;
